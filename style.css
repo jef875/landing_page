@@ -23,16 +23,11 @@ body{
     color: white;
     font-size: 50px;
 }
-header p{
-    color: white;
-    opacity: 0.8;
-    font-size: 30px;
-    font-weight: lighter;
-}
+
 a{
     font-size: 30px;
 }
-a:hover{
+a :hover{
     text-decoration: none;
     color:#62BEC1;
 }
@@ -44,11 +39,24 @@ a:hover{
     text-align: center;
     box-shadow: 2px 2px rgb(230, 230,230)
 }
-.card{
-    text-align: center;
+#header p{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
 }
 #footer{
-    background-color: black;
-    color: white;
     padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+}
+.card{
+    text-align: center;
+    font-weight: lighter
+}
+#footer a{
+    color: lightgrey;
+    font-size: 15px;
+}
+#footer a:hover{
+    color:white;
 }
